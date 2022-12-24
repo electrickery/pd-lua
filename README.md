@@ -2,6 +2,7 @@ pdlua -- a Lua embedding for Pd
 Copyright (C) 2007,2008,2009,2013 Claude Heiland-Allen <claude@mathr.co.uk>
 Copyright (C) 2012 Martin Peach martin.peach@sympatico.ca
 
+# LICENSE
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
@@ -17,9 +18,18 @@ You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
+## Maintainers notes
+
+NOTE by fjkraan: This is a fork of aggraef's pdlua, with a pd-lib-builder 
+build system for Deken distribution. Other minor edits are expected to 
+make the library behave betetr in a Vanilla/Deken environment. The chapters 
+from 'Compilation Instructions' on are obsolete. The origin for this fork is: 
+https://github.com/electrickery/pd-lua
 
 NOTES by aggraef: Since the contents of the original README has become rather
 outdated, I've updated the information below.
+
+# PDlua
 
 pdlua works with all Pd flavors out there and makes Pd external programming
 incredibly easy (please check the included examples and the tutorial in the
@@ -46,7 +56,7 @@ live-coding, in quite some detail. This will be helpful when embarking on your
 own projects, or trying to make sense of the included examples.
 
 
-History and Credits:
+## History and Credits:
 
 pdlua was originally written by Claude Heiland-Allen, with contributions by
 Frank Barknecht and Martin Peach, according to the original source.
