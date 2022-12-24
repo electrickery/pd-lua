@@ -1,29 +1,28 @@
-#N canvas 0 0 513 360 10;
+#N canvas 1931 463 513 360 10;
+#X declare -lib pdlua;
 #X obj 117 203 reverb-calculator 8;
 #X obj 13 229 reverb;
-#X floatatom 89 169 5 0 0 0 - - -;
+#X floatatom 89 169 5 0 0 0 - - - 0;
 #X obj 15 146 noise~;
 #X obj 14 185 *~;
 #X obj 62 115 vline~;
 #X obj 18 265 dac~;
 #X obj 70 263 print reverb;
-#X obj 11 7 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1
-;
+#X obj 11 7 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000 #000000 0 1;
 #X obj 8 60 t b b;
 #X obj 158 24 spigot;
-#X obj 197 -4 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
-1;
+#X obj 197 -4 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000 #000000 0 1;
 #X obj 25 166 noise~;
 #X obj 25 205 *~;
 #X obj 10 28 metro 1000;
 #X obj 158 47 t b b b;
-#X floatatom 158 146 5 0 0 0 - - -;
+#X floatatom 158 146 5 0 0 0 - - - 0;
 #X obj 158 172 pack f f f;
 #X obj 158 71 random 1000;
 #X obj 251 71 random 1000;
 #X obj 340 70 random 1000;
-#X floatatom 251 146 5 0 0 0 - - -;
-#X floatatom 341 148 5 0 0 0 - - -;
+#X floatatom 251 146 5 0 0 0 - - - 0;
+#X floatatom 341 148 5 0 0 0 - - - 0;
 #X obj 157 97 expr $f1*$f1/100000+1;
 #X obj 251 121 expr $f1*$f1/100000+1;
 #X obj 341 101 expr $f1*$f1/100000+1;
@@ -35,8 +34,8 @@
 #X text 255 174 room dimensions in meters;
 #X text 79 148 decay (%);
 #X text 98 245 delay times in ms;
-#X obj 212 22 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
--1;
+#X obj 212 22 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000 #000000;
+#X obj 380 1 declare -lib pdlua;
 #X connect 0 0 1 2;
 #X connect 0 0 7 0;
 #X connect 1 0 6 0;
