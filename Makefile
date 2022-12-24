@@ -34,7 +34,7 @@ hello.lua \
 hello.pd_lua \
 hello.pd_luax \
 hello-help.pd \
-README \
+README.md \
 pd.lua \
 pdlua-help.pd \
 pdlua-meta.pd \
