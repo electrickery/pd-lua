@@ -22,7 +22,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 NOTE by fjkraan: This is a fork of aggraef's pdlua, with a pd-lib-builder 
 build system for Deken distribution. Other minor edits are expected to 
-make the library behave betetr in a Vanilla/Deken environment. The chapters 
+make the library behave better in a Vanilla-Pd/Deken environment. The chapters 
 from 'Compilation Instructions' on are obsolete. The origin for this fork is: 
 https://github.com/electrickery/pd-lua
 
@@ -77,7 +77,7 @@ official Debian packages are built. This in turn is apparently based on the
 0.7.3 version of pdlua in Pd's svn repository.
 
 
-Compilation Instructions:
+## Compilation Instructions:
 
 The source should compile out of the box on (at least) Linux, macOS and
 Windows, just make sure that you have Lua and Pd installed and run `make`.
@@ -88,13 +88,13 @@ binaries are on https://github.com/agraef/pd-lua.
 If you want/need to compile from source, the following details the
 requirements for the three most popular platforms.
 
-Linux:
+### Linux:
 
 Both Lua 5.3 and Pd should be available in your package repositories, if not
 then they're easy to install from source, cf. https://www.lua.org/download.html
 and http://msp.ucsd.edu/software.html.
 
-macOS/OS X:
+### macOS/OS X:
 
 Lua 5.3 is available in Homebrew (https://brew.sh/) and MacPorts
 (https://www.macports.org/), but it's also easy to install from source once
@@ -104,7 +104,7 @@ have the Pd header files somewhere under /Applications/Pd-*/Contents
 distribution by MSP); otherwise you may have to set the `PD_INCLUDE` make
 variable accordingly.
 
-Windows:
+### Windows:
 
 Compilation is a breeze using mingw (either the old one at http://mingw.org/
 or the new msys2-based installation at http://www.msys2.org/). The Lua that
@@ -115,7 +115,7 @@ as distributed by MSP, please check the comments in the mingw section of the
 Makefile for details. This is necessary so that the header files and pd.dll
 are found during compilation and linkage, respectively.
 
-Installation:
+### Installation:
 
 After a successful compile, you can go about installing the external with the
 usual `make install` (which copies the external to its own directory named
