@@ -1,0 +1,33 @@
+complex           Lists methods of a library  object.
+dispatchertest    Dispatcher demo/test.
+errors            Error message demo/test.
+hello             Demo object.
+ldelay2           Multiple clock version of [ldelay].
+ldelay            Reimplementation of [delay] in Lua to prove clocks work.
+ldemux            Demultiplexer based on index value.
+lexpr             A [lexpr] clone in Lua.
+lfloat2bytes      Spits out the characters of a string representation of a float as bytes.
+list-pak          Like [pack] for any kind of type.
+list-unpack       Like [unpack] for any kind of type.
+llist-drip        Outputs any input as a sequence.
+llist-rdrip       Outputs any input as a reverse sequence.
+lpipe             Reimplementation of [pipe] for any message.
+lreceive          Receive in Lua.
+lsend             Send in Lua.
+lsymbol2bytes     Spits out the characters of a symbol as bytes.
+lsymbol-drip      Splits symbol into characters.
+ltabdump          Table dump.
+ltabfill          A clone of [lexpr] that writes a function to a table. 
+ltextfile-drip    Prompts lines from a text file on [bang].
+luametro          Multi-period [metro].
+lurn              Copy of Max urn: Unique Random Generator
+mutator           Mutates message.
+nop               Does nothing, apart from passing values.
+pdlua             Loader for Lua objects.
+peekbag           Collection of numbers, like [bag] but with [bang].
+requirer          Package finder.
+revalue           Behaves as Vanilla [value] but with settable name.
+reverb-calculator reverb calculator for three room dimensions. Comes with Vanill-Pd reverb.
+shared            objects sharing a list prefix
+simplecounter     counter with optional start value
+swarm             boids-style swarm in pd with Lua

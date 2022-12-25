@@ -1,7 +1,6 @@
-#N canvas 390 515 588 334 10;
+#N canvas 2078 498 588 334 10;
 #X declare -lib pdlua;
 #X obj 199 247 llist-drip;
-#X obj 89 10 import pdlua;
 #X msg 99 130 1 2 3 a b c;
 #X msg 121 152 list twig branch root;
 #X floatatom 77 109 5 0 0 0 - - - 0;
@@ -21,13 +20,13 @@
 #X text 178 130 <- a list beginning with a float is still a list;
 #X text 137 81 <- any single items are passed through unchanged;
 #X obj 469 8 declare -lib pdlua;
-#X connect 0 0 5 0;
+#X connect 0 0 4 0;
+#X connect 1 0 0 0;
 #X connect 2 0 0 0;
 #X connect 3 0 0 0;
-#X connect 4 0 0 0;
-#X connect 6 0 0 0;
-#X connect 7 0 6 0;
+#X connect 5 0 0 0;
+#X connect 6 0 5 0;
+#X connect 7 0 0 0;
 #X connect 8 0 0 0;
 #X connect 9 0 0 0;
-#X connect 10 0 0 0;
-#X connect 13 0 0 0;
+#X connect 12 0 0 0;
